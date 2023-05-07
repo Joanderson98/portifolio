@@ -205,7 +205,7 @@ li>img {
     padding-top: 40px;
 }
 
-.title_section {
+title_section {
     padding-top: 80px;
     padding-bottom: 20px;
 }
@@ -407,7 +407,7 @@ footer>p {
         color: white;
         display: block;
         padding-bottom: 150px;
-
+        box-sizing: border-box;
     }
 
     .header {
@@ -438,6 +438,7 @@ footer>p {
         text-align: center;
         padding-top: 150px;
         display: block;
+        box-sizing: border-box;
     }
 
     .quem_sou {
@@ -474,6 +475,7 @@ footer>p {
     .img_s3 {
         display: none;
     }
+
 
     .tech {
         margin: auto;
@@ -512,7 +514,7 @@ footer>p {
         padding-top: 30px;
         font-size: 0.8rem;
         font-weight: 600;
-        padding: 10px;
+        padding: 30px;
     }
 
     .secao_4 {
