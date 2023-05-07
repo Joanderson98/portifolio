@@ -370,10 +370,10 @@
     
     .img_s3 {
         position: absolute;
-        width: 300px;
-        left: 85%;
-        margin-top: -250px;
-        opacity: 30%;
+        width: 150px;
+        left: 90%;
+        margin-top: -150px;
+        opacity: 100%;
     }
     
 
@@ -392,10 +392,7 @@
     }
 
 
-    .full_content {
-        background: rgb(0, 0, 0);
-        background: linear-gradient(0deg, rgba(1, 5, 22) 0%, rgb(3, 19, 90) 100%);
-    }
+
 
     .template_1 {
         width: 90%;
@@ -445,15 +442,19 @@
     }
 
     .quem_sou {
-        padding-top: 40px;
+        padding: 0;
+        padding-top: 20px;
+
+       
     }
 
 
     .line {
-        width: 20%;
+        width: 100px;
+        display: block;
         margin: auto;
-        padding: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     .img_autor {
@@ -507,6 +508,12 @@
         width: 20px;
         align-items: center;
     }
+    .tech>p {
+        padding-top: 30px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 10px;
+    }
 
     .secao_4{
         padding-bottom: 40px;
@@ -547,9 +554,10 @@
         font-size: 0.6rem;
     }
 
+    .autor, .tech1, .secao_2, .secao_3, .secao_4{
+        margin-top: -2px;
+    }
 
 }
-
-
 
 
