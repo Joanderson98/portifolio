@@ -75,8 +75,9 @@
 .secao_2 {
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(1, 5, 22) 0%, rgb(3, 19, 90) 100%);
-
+      
 }
+
 
 h3 {
     font-size: 1.2rem;
@@ -102,6 +103,7 @@ h3 {
 
 .img_autor {
     width: 350px;
+    z-index: 999;
 }
 
 .autor h2 {
@@ -354,21 +356,30 @@ footer>p {
 
 .img_s1 {
     position: absolute;
-    margin-left: -40px;
+    margin-left: -50px;
+    margin-top: 30px;
 }
 
 .img_s2 {
     position: absolute;
-    left: 90%;
-    margin-top: -150px;
+    width: 200px;
+    left: 94%;
+    margin-top: -50px;
+
 }
 
 .img_s3 {
     position: absolute;
-    width: 150px;
-    left: 90%;
-    margin-top: -150px;
+    left: 95%;
+    bottom: 90px;
+    z-index: -1;
 }
+
+.icon_background{
+    max-width: 1200px;
+    margin: auto;
+}
+
 
 
 
